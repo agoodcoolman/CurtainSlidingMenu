@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"  tools:context=".MainActivity" android:orientation="vertical">
+
+    <!--<com.sevenheaven.curtain.CurtainView-->
+        <!--android:id="@+id/curtain"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+    <com.sevenheaven.shtextextend.MDEditText
+        android:id="@+id/mdedit_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="asdfasdfawef"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0"
+        android:text="红色划线"
+        android:onClick="redBackgroundButtonClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0"
+        android:text="删除线"
+        android:onClick="crossLineButtonClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="圆角矩形"
+        android:onClick="roundRectButtonClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0"
+        android:text="行数显示"
+        android:onClick="lineNumberButtonClick"/>
+
+</LinearLayout>
